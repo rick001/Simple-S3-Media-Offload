@@ -18,12 +18,14 @@ class Admin_Page {
      * Add admin menu
      */
     public function add_admin_menu() {
-        add_options_page(
-            __( 'S3 Media Offload', 'simple-s3-media-offload' ),
-            __( 'S3 Media Offload', 'simple-s3-media-offload' ),
+        add_menu_page(
+            __( 'S3 Media Offload', 'simple-s3-media-offload' ), // Page title
+            __( 'S3 Media Offload', 'simple-s3-media-offload' ), // Menu title
             'manage_options',
             'simple-s3-media-offload',
-            [ $this, 'render_settings_page' ]
+            [ $this, 'render_settings_page' ],
+            'dashicons-cloud', // Icon
+            60 // Position
         );
     }
 

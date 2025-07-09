@@ -45,6 +45,11 @@ spl_autoload_register( function ( $class ) {
     }
 } );
 
+// Load Composer autoloader if present
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+    require_once __DIR__ . '/vendor/autoload.php';
+}
+
 // Initialize the plugin
 add_action( 'plugins_loaded', function() {
     // Check if AWS SDK is available

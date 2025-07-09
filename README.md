@@ -214,7 +214,7 @@ For support and bug reports, please create an issue on the plugin's GitHub repos
 
 ## License
 
-This plugin is licensed under the GPL v2 or later.
+This project is licensed under the MIT License.
 
 ## Contributing
 

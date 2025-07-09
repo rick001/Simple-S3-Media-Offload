@@ -2,7 +2,7 @@
     "name": "rick001/simple-s3-media-offload",
     "description": "A WordPress plugin that automatically uploads media files to Amazon S3 and serves them through CloudFront",
     "type": "wordpress-plugin",
-    "license": "GPL-2.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sayantan Roy",

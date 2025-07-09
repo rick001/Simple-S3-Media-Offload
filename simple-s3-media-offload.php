@@ -89,7 +89,8 @@ register_deactivation_hook( __FILE__, function() {
 } );
 
 // Uninstall hook (when plugin is deleted)
-register_uninstall_hook( __FILE__, function() {
+function simple_s3_media_offload_uninstall() {
     // Remove plugin options
     delete_option( 'simple_s3_media_offload_options' );
-} ); 
+}
+register_uninstall_hook( __FILE__, 'simple_s3_media_offload_uninstall' ); 

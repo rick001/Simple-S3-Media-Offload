@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Simple S3 Media Offload
- * Plugin URI: https://github.com/your-username/simple-s3-media-offload
+ * Plugin URI: https://www.techbreeze.in/wordpress-s3-media-offload-plugin/
  * Description: Moves existing media library to Amazon S3 in batches and automatically uploads newly-uploaded media. Rewrites URLs to use your CloudFront distribution for better performance.
  * Version: 1.0.0
- * Author: Uipl
- * Author URI: https://uipl.com
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Author: Sayantan Roy
+ * Author URI: https://www.techbreeze.in/author/techlab1/
+ * License: MIT
+ * License URI: https://opensource.org/licenses/MIT
  * Text Domain: simple-s3-media-offload
  * Domain Path: /languages
  * Requires at least: 5.0
